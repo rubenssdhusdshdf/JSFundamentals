@@ -10,8 +10,8 @@ for (let index = 0; index < pets.length; index ++) {
 }
 
 
-//
-
 const rta = pets.includes(item => item === 'dog')
 console.log('for', includeInArray);
 console.log('includes', rta);
+
+// includes funciona para arrays y para strings
